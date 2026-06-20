@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>QAP Preview</title>
+<style>
+  @page { size: A4; margin: 8mm; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; font-size: 10px; line-height: 1.4; color: #222; margin: 0; padding: 8mm; }
+  .header { background: #2d2d2d; color: white; padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; margin-bottom: 20px; }
+  .header-logo { font-size: 14px; font-weight: bold; }
+  .header-sub { font-size: 9px; color: #aaa; }
+  .header-title { font-size: 12px; font-weight: bold; text-align: right; }
+  h1 { font-size: 14px; color: #c20017; border-bottom: 2px solid #c20017; padding-bottom: 4px; margin: 16px 0 8px; }
+  h2 { font-size: 11px; color: #333; background: #f5f5f5; padding: 4px 8px; margin: 12px 0 6px; border-left: 3px solid #c20017; }
+  table { width: 100%; border-collapse: collapse; margin: 8px 0; font-size: 9px; }
+  th, td { border: 1px solid #ccc; padding: 5px 8px; text-align: left; vertical-align: top; }
+  th { background: #f0f0f0; font-weight: 600; }
+  .status-pass { color: #16a34a; font-weight: bold; }
+  .footer { border-top: 1px solid #ccc; padding-top: 8px; margin-top: 20px; display: flex; justify-content: space-between; font-size: 8px; color: #666; }
+  .sig-row { display: flex; gap: 30px; margin-top: 20px; }
+  .sig-block { flex: 1; border-top: 1px solid #333; padding-top: 4px; font-size: 8px; }
+</style>
+</head>
+<body>
+<div class="header">
+  <div>
+    <div class="header-logo">Flowtech Measuring Instruments Pvt. Ltd.</div>
+    <div class="header-sub">900/2/B, GIDC, Makarpura, Vadodara - 390010, Gujarat, India</div>
+  </div>
+  <div class="header-title">QUALITY ASSURANCE PLAN (QAP)</div>
+</div>
+
+<h1>1. General Information</h1>
+<table>
+  <tr><th width="30%">Item</th><th width="70%">Details</th></tr>
+  <tr><td>Customer PO / SO Reference</td><td>SO/FT/2026/0342</td></tr>
+  <tr><td>Product Description</td><td>Electromagnetic Flow Meter DN150, PN16, SS316L/PTFE/Hastelloy C</td></tr>
+  <tr><td>Manufacturer</td><td>Flowtech Measuring Instruments Pvt. Ltd., Vadodara, India</td></tr>
+  <tr><td>QAP Reference</td><td>FT-QAP-SO/FT/2026/0342-2026</td></tr>
+  <tr><td>QAP Issue Date</td><td>04/06/2026</td></tr>
+  <tr><td>Quality System</td><td>ISO 9001:2015 Certified</td></tr>
+  <tr><td>Applicable Standards</td><td>ISO 9001:2015, ASME B31.3, PED 2014/68/EU, IEC 61508</td></tr>
+</table>
+
+<h1>2. Quality Assurance Organization</h1>
+<table>
+  <tr><th>Role</th><th>Name</th><th>Designation</th><th>Responsibility</th></tr>
+  <tr><td>Quality Head</td><td>_________________</td><td>Manager — QA</td><td>Overall QAP implementation, customer liaison</td></tr>
+  <tr><td>Inspection Engineer</td><td>_________________</td><td>Senior Engineer</td><td>In-process inspection, witness tests</td></tr>
+  <tr><td>Production Head</td><td>_________________</td><td>Manager — Production</td><td>Manufacturing as per approved drawings</td></tr>
+  <tr><td>NDT Inspector</td><td>_________________</td><td>Level-II Certified</td><td>Radiography, DPT, MPI as applicable</td></tr>
+</table>
+
+<h1>3. Inspection & Test Plan (ITP)</h1>
+
+<h2>Stage 1: Raw Material Inspection</h2>
+<table>
+  <tr><th>Sr.</th><th>Inspection Activity</th><th>Reference Standard</th><th>Flowtech</th><th>Customer Hold</th><th>Record</th></tr>
+  <tr><td>1.1</td><td>Material test certificate review (MTC)</td><td>EN 10204 3.1 / 3.2</td><td class="status-pass">&#9679;</td><td>&#9675;</td><td>MTC Log</td></tr>
+  <tr><td>1.2</td><td>Incoming dimensional verification</td><td>ISO 2768-m</td><td class="status-pass">&#9679;</td><td>&#9675;</td><td>Incoming Report</td></tr>
+  <tr><td>1.3</td><td>Positive material identification (PMI)</td><td>ASTM E1476</td><td class="status-pass">&#9679;</td><td class="status-pass">&#9679;</td><td>PMI Report</td></tr>
+  <tr><td>1.4</td><td>Visual inspection for defects</td><td>ASTM A802</td><td class="status-pass">&#9679;</td><td>&#9675;</td><td>Visual Report</td></tr>
+</table>
+
+<h2>Stage 2: In-Process Inspection</h2>
+<table>
+  <tr><th>Sr.</th><th>Inspection Activity</th><th>Reference Standard</th><th>Flowtech</th><th>Customer Hold</th><th>Record</th></tr>
+  <tr><td>2.1</td><td>Welding procedure qualification (WPQ / WPS / PQR)</td><td>ASME IX / EN ISO 15614</td><td class="status-pass">&#9679;</td><td class="status-pass">&#9679;</td><td>WPS/PQR</td></tr>
+  <tr><td>2.2</td><td>Welder qualification</td><td>ASME IX</td><td class="status-pass">&#9679;</td><td>&#9675;</td><td>WPQ Cards</td></tr>
+  <tr><td>2.3</td><td>Weld visual inspection</td><td>AWS D1.1 / EN ISO 17637</td><td class="status-pass">&#9679;</td><td>&#9675;</td><td>VI Report</td></tr>
+  <tr><td>2.4</td><td>Dye penetrant testing (DPT)</td><td>ASTM E165 / EN 571-1</td><td class="status-pass">&#9679;</td><td class="status-pass">&#9679;</td><td>DPT Report</td></tr>
+  <tr><td>2.5</td><td>Radiographic testing (RT) — if applicable</td><td>ASTM E94 / EN ISO 17636</td><td class="status-pass">&#9679;</td><td class="status-pass">&#9679;</td><td>RT Films + Report</td></tr>
+  <tr><td>2.6</td><td>Hydrostatic pressure test</td><td>ASME B31.3 / PED</td><td class="status-pass">&#9679;</td><td class="status-pass">&#9679;</td><td>Hydro Test Cert</td></tr>
+  <tr><td>2.7</td><td>Calibration of measuring instruments</td><td>ISO/IEC 17025</td><td class="status-pass">&#9679;</td><td>&#9675;</td><td>Calibration Cert</td></tr>
+</table>
+
+<h2>Stage 3: Final Inspection & Testing</h2>
+<table>
+  <tr><th>Sr.</th><th>Inspection Activity</th><th>Reference Standard</th><th>Flowtech</th><th>Customer Hold</th><th>Record</th></tr>
+  <tr><td>3.1</td><td>Final dimensional inspection</td><td>Approved Drawing</td><td class="status-pass">&#9679;</td><td class="status-pass">&#9679;</td><td>Final Dim. Report</td></tr>
+  <tr><td>3.2</td><td>Functional / performance test</td><td>API / ISO / Factory Standard</td><td class="status-pass">&#9679;</td><td class="status-pass">&#9679;</td><td>Test Certificate</td></tr>
+  <tr><td>3.3</td><td>Paint / coating thickness check</td><td>SSPC / ISO 19840</td><td class="status-pass">&#9679;</td><td>&#9675;</td><td>Paint Report</td></tr>
+  <tr><td>3.4</td><td>Final visual inspection & marking check</td><td>Flowtech WI-QA-07</td><td class="status-pass">&#9679;</td><td>&#9675;</td><td>FVI Report</td></tr>
+  <tr><td>3.5</td><td>Documentation review & compilation</td><td>ISO 9001:2015 Cl 8.6</td><td class="status-pass">&#9679;</td><td>&#9675;</td><td>Doc Checklist</td></tr>
+  <tr><td>3.6</td><td>Packing inspection</td><td>Flowtech WI-PKG-01</td><td class="status-pass">&#9679;</td><td>&#9675;</td><td>Packing List</td></tr>
+</table>
+
+<h1>4. Document Submission Schedule</h1>
+<table>
+  <tr><th>Sr.</th><th>Document</th><th>Soft Copy</th><th>Hard Copy</th><th>Schedule</th></tr>
+  <tr><td>1</td><td>Inspection & Test Plan (ITP)</td><td>PDF</td><td>2 sets</td><td>Within 1 week of PO</td></tr>
+  <tr><td>2</td><td>Raw Material Test Certificates (MTC)</td><td>PDF</td><td>1 set</td><td>With inspection call</td></tr>
+  <tr><td>3</td><td>WPS / PQR / WPQ</td><td>PDF</td><td>1 set</td><td>Before start of welding</td></tr>
+  <tr><td>4</td><td>NDT Reports (DPT / RT / MPI / UT)</td><td>PDF</td><td>1 set</td><td>Within 3 days of test</td></tr>
+  <tr><td>5</td><td>Hydrostatic Test Certificate</td><td>PDF</td><td>2 sets</td><td>Within 3 days of test</td></tr>
+  <tr><td>6</td><td>Final Inspection Report</td><td>PDF</td><td>2 sets</td><td>Within 3 days of FVI</td></tr>
+  <tr><td>7</td><td>Calibration Certificates</td><td>PDF</td><td>1 set</td><td>With despatch</td></tr>
+  <tr><td>8</td><td>Operation & Maintenance Manual</td><td>PDF</td><td>2 sets</td><td>With despatch</td></tr>
+  <tr><td>9</td><td>GAD / Datasheet</td><td>PDF + DWG</td><td>2 sets</td><td>Within 2 weeks of PO</td></tr>
+  <tr><td>10</td><td>Packing List / Commercial Invoice</td><td>PDF</td><td>2 sets</td><td>With despatch</td></tr>
+</table>
+
+<h1>5. Non-Conformance & Deviation Control</h1>
+<table>
+  <tr><th>Sr.</th><th>Activity</th><th>Procedure</th></tr>
+  <tr><td>1</td><td>NCR (Non-Conformance Report) raised</td><td>Flowtech WI-QA-03 — All NCRs logged with root cause, corrective action, and preventive action</td></tr>
+  <tr><td>2</td><td>Customer notification for major NCR</td><td>Within 24 hours of identification for customer hold point items</td></tr>
+  <tr><td>3</td><td>Rework / Repair approval</td><td>Repair procedure to be approved by customer before execution (for hold point items)</td></tr>
+  <tr><td>4</td><td>Deviation request</td><td>Formal deviation request with technical justification for customer approval</td></tr>
+</table>
+
+<h1>6. Signatures</h1>
+<div class="sig-row">
+  <div class="sig-block"><strong>Prepared by:</strong> Quality Assurance Engineer<br>Date: _______________</div>
+  <div class="sig-block"><strong>Reviewed by:</strong> Quality Manager<br>Date: _______________</div>
+  <div class="sig-block"><strong>Customer Approval:</strong><br>Name: _______________ &nbsp; Date: _______________ &nbsp; Stamp:</div>
+</div>
+
+<div class="footer">
+  <span>Flowtech Measuring Instruments Pvt. Ltd. — ISO 9001:2015 Certified</span>
+  <span>Page 1 — CONFIDENTIAL</span>
+</div>
+</body>
+</html>

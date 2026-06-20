@@ -1,0 +1,15 @@
+Existing: 310, Total URLs: 1109
+[509] OK: FlowGT_R180F.html (total new: 10)
+[532] OK: FlowMet_L360Ex.html (total new: 20)
+[973] OK: page_7.png (total new: 30)
+[987] OK: page_2.png (total new: 40)
+[1047] OK: FlowSon_L600Ex.html (total new: 50)
+[1059] OK: test_two_col.pdf (total new: 60)
+[1069] OK: ref_page_21.png (total new: 70)
+[1079] OK: mobile_calc_2.png (total new: 80)
+[1089] OK: Flowtech_MOC_Selection_Guide.xlsx (total new: 90)
+[1099] OK: emf_model_no_row.png (total new: 100)
+[1109] OK: audit_report.md (total new: 110)
+
+Done! New: 110, Skipped: 999, Failed: 0
+Total files: 411

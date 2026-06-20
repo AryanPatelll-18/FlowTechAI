@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>GAD+Datasheet Preview</title>
+<style>
+  @page { size: A4 landscape; margin: 6mm; }
+  body { font-family: 'Segoe UI', Arial, sans-serif; font-size: 9px; line-height: 1.35; color: #222; margin: 0; padding: 6mm; }
+  .header { background: #2d2d2d; color: white; padding: 12px 20px; display: flex; align-items: center; justify-content: space-between; margin-bottom: 15px; }
+  .header-logo { font-size: 14px; font-weight: bold; }
+  .header-sub { font-size: 9px; color: #aaa; }
+  .header-title { font-size: 12px; font-weight: bold; text-align: right; }
+  h1 { font-size: 13px; color: #c20017; border-bottom: 2px solid #c20017; padding-bottom: 3px; margin: 14px 0 6px; }
+  h2 { font-size: 10px; color: #333; background: #f5f5f5; padding: 3px 8px; margin: 10px 0 4px; border-left: 3px solid #c20017; }
+  table { width: 100%; border-collapse: collapse; margin: 6px 0; font-size: 8px; }
+  th, td { border: 1px solid #ccc; padding: 4px 6px; text-align: left; vertical-align: top; }
+  th { background: #f0f0f0; font-weight: 600; }
+  .gad-box { border: 2px solid #333; padding: 15px; margin: 10px 0; text-align: center; min-height: 200px; position: relative; display: flex; align-items: center; justify-content: center; }
+  .gad-placeholder { color: #999; font-size: 12px; border: 1px dashed #ccc; padding: 20px; }
+  .moc-table th { background: #c20017; color: white; }
+  .footer { border-top: 1px solid #ccc; padding-top: 8px; margin-top: 15px; display: flex; justify-content: space-between; font-size: 8px; color: #666; }
+</style>
+</head>
+<body>
+<div class="header">
+  <div>
+    <div class="header-logo">Flowtech Measuring Instruments Pvt. Ltd.</div>
+    <div class="header-sub">900/2/B, GIDC, Makarpura, Vadodara - 390010, Gujarat, India</div>
+  </div>
+  <div class="header-title">GENERAL ASSEMBLY DRAWING + TECHNICAL DATASHEET</div>
+</div>
+
+<h1>1. General Assembly Drawing (GAD)</h1>
+<table>
+  <tr><th width="18%">Drawing No.</th><td width="32%">FT-GAD-SO-FT-2026-0342-01</td><th width="18%">Revision</th><td width="32%">Rev. 0</td></tr>
+  <tr><th>Title</th><td colspan="3">General Assembly — Electromagnetic Flow Meter DN150</td></tr>
+  <tr><th>Scale</th><td>As noted</td><th>Projection</th><td>Third Angle</td></tr>
+  <tr><th>Drawn by</th><td>_______________</td><th>Checked by</th><td>_______________</td></tr>
+  <tr><th>Approved by</th><td>_______________</td><th>Date</th><td>04/06/2026</td></tr>
+</table>
+
+<div class="gad-box">
+  <span class="gad-placeholder">G.A. Drawing — Insert approved AutoCAD drawing here</span>
+</div>
+
+<h1>2. Technical Datasheet</h1>
+
+<h2>2.1 General Specifications</h2>
+<table>
+  <tr><th width="25%">Parameter</th><th width="25%">Specification</th><th width="25%">Parameter</th><th width="25%">Specification</th></tr>
+  <tr><td>Manufacturer</td><td>Flowtech Measuring Instruments Pvt. Ltd., India</td><td>Model / Type</td><td>FT-EMF-2000 Series</td></tr>
+  <tr><td>Tag Number</td><td>FT-001</td><td>Line / Equipment No.</td><td>LINE-101-A</td></tr>
+  <tr><td>Service / Fluid</td><td>Water @ 25°C</td><td>Operating Pressure</td><td>10 bar</td></tr>
+  <tr><td>Operating Temperature</td><td>25°C</td><td>Design Pressure</td><td>16 bar</td></tr>
+  <tr><td>Design Temperature</td><td>80°C</td><td>Process Connection</td><td>Flanged IS 6392, PN16</td></tr>
+  <tr><td>Line Size / Rating</td><td>DN150 / PN16</td><td>Quantity</td><td>1 No.</td></tr>
+</table>
+
+<h2>2.2 Performance Specifications</h2>
+<table>
+  <tr><th width="30%">Parameter</th><th width="35%">Specification</th><th width="35%">Remarks</th></tr>
+  <tr><td>Measuring Principle</td><td>Faraday's Law of Electromagnetic Induction</td><td>EMF</td></tr>
+  <tr><td>Measuring Range</td><td>0 - 500 m³/hr</td><td>Min to Max</td></tr>
+  <tr><td>Accuracy</td><td>±0.5% of reading</td><td>% of rate</td></tr>
+  <tr><td>Repeatability</td><td>±0.1% of reading</td><td></td></tr>
+  <tr><td>Turndown Ratio</td><td>1000:1</td><td></td></tr>
+  <tr><td>Response Time</td><td>&lt;100 ms (adjustable damping)</td><td>Seconds</td></tr>
+  <tr><td>Output Signal</td><td>4-20mA (2-wire) + HART v7.5</td><td></td></tr>
+  <tr><td>Power Supply</td><td>18-36 VDC</td><td></td></tr>
+  <tr><td>Load Resistance</td><td>0-750 Ohms</td><td>Ohms</td></tr>
+  <tr><td>Display</td><td>LCD backlight + totalizer</td><td></td></tr>
+  <tr><td>Communication</td><td>HART v7.5</td><td></td></tr>
+</table>
+
+<h2>2.3 Materials of Construction (MOC)</h2>
+<table class="moc-table">
+  <tr><th>Part</th><th>Material</th><th>Part</th><th>Material</th></tr>
+  <tr><td>Body / Housing</td><td>SS 316L</td><td>Flange</td><td>SS 316L</td></tr>
+  <tr><td>Measuring Tube</td><td>SS 316L</td><td>Electrodes</td><td>Hastelloy C</td></tr>
+  <tr><td>Liner</td><td>PTFE</td><td>Gaskets</td><td>PTFE</td></tr>
+  <tr><td>Sensor / Transmitter</td><td>Aluminium die-cast (epoxy coated)</td><td>Bolts / Nuts</td><td>SS 316</td></tr>
+  <tr><td>Terminal Housing</td><td>Aluminium die-cast</td><td>Cable Glands</td><td>Nickel-plated brass</td></tr>
+</table>
+
+<h2>2.4 Electrical Specifications</h2>
+<table>
+  <tr><th width="25%">Parameter</th><th width="25%">Specification</th><th width="25%">Parameter</th><th width="25%">Specification</th></tr>
+  <tr><td>Supply Voltage</td><td>24 VDC (two-wire)</td><td>Output</td><td>4-20mA + HART</td></tr>
+  <tr><td>Load Resistance</td><td>0-600 Ohms</td><td>Cable Entry</td><td>2 x M20x1.5</td></tr>
+  <tr><td>Enclosure Rating</td><td>IP66 / IP67 / NEMA 4X</td><td>Explosion Proof</td><td>Ex d IIC T6 (optional)</td></tr>
+  <tr><td>Intrinsic Safety</td><td>Ex ia IIC T6 (optional)</td><td>EMC</td><td>IEC 61326</td></tr>
+</table>
+
+<h2>2.5 Mechanical Specifications</h2>
+<table>
+  <tr><th width="25%">Parameter</th><th width="25%">Specification</th><th width="25%">Parameter</th><th width="25%">Specification</th></tr>
+  <tr><td>Mounting</td><td>Flanged between pipe line</td><td>Orientation</td><td>Any (horizontal/vertical)</td></tr>
+  <tr><td>Overall Length</td><td>400 mm</td><td>Face-to-Face</td><td>As per ISO 13359</td></tr>
+  <tr><td>Weight (approx.)</td><td>18 kg</td><td>End Connection</td><td>Flanged PN16</td></tr>
+  <tr><td>Drain / Vent</td><td>Not required</td><td>Grounding</td><td>Integral grounding rings</td></tr>
+</table>
+
+<h2>2.6 Environmental Specifications</h2>
+<table>
+  <tr><th width="25%">Parameter</th><th width="25%">Value</th><th width="25%">Parameter</th><th width="25%">Value</th></tr>
+  <tr><td>Ambient Temperature</td><td>-20°C to +60°C</td><td>Storage Temperature</td><td>-40°C to +85°C</td></tr>
+  <tr><td>Ambient Humidity</td><td>0-100% RH (condensing)</td><td>Vibration</td><td>2g per IEC 60068-2-6</td></tr>
+  <tr><td>Shock</td><td>15g per IEC 60068-2-27</td><td>Altitude</td><td>Up to 2000m</td></tr>
+</table>
+
+<h2>2.7 Accessories & Options</h2>
+<table>
+  <tr><th width="5%">Sr.</th><th width="40%">Accessory / Option</th><th width="10%">Qty</th><th width="45%">Specification</th></tr>
+  <tr><td>1</td><td>2-valve / 3-valve / 5-valve Manifold</td><td>___</td><td>SS 316, NPT/Flanged, rated to process pressure</td></tr>
+  <tr><td>2</td><td>Mounting Bracket (Pipe/Wall)</td><td>___</td><td>SS 304 / CS epoxy coated</td></tr>
+  <tr><td>3</td><td>Sun Shade / Weather Protection</td><td>___</td><td>SS 304, IP66</td></tr>
+  <tr><td>4</td><td>Cable Glands</td><td>___</td><td>Ex d / Ex e certified, Nickel-plated brass</td></tr>
+  <tr><td>5</td><td>Commissioning Spares</td><td>___</td><td>As per Flowtech standard list</td></tr>
+</table>
+
+<h2>2.8 Reference Standards</h2>
+<table>
+  <tr><td>Pressure Equipment Directive</td><td>PED 2014/68/EU — Module H (Full Quality Assurance)</td></tr>
+  <tr><td>Electromagnetic Compatibility</td><td>IEC 61326-1</td></tr>
+  <tr><td>Electrical Safety</td><td>IEC 61010-1</td></tr>
+  <tr><td>Explosion Protection</td><td>IEC 60079-0, IEC 60079-1, IEC 60079-11</td></tr>
+  <tr><td>Functional Safety</td><td>IEC 61508 (SIL 2/3 capable)</td></tr>
+  <tr><td>Environmental Testing</td><td>IEC 60068-2</td></tr>
+  <tr><td>Quality Management</td><td>ISO 9001:2015</td></tr>
+</table>
+
+<h2>2.9 Signatures</h2>
+<div style="display:flex; gap:30px; margin-top:15px;">
+  <div style="flex:1; border-top:1px solid #333; padding-top:4px; font-size:8px;">
+    <strong>Prepared by:</strong> Design Engineer<br>Date: _______________
+  </div>
+  <div style="flex:1; border-top:1px solid #333; padding-top:4px; font-size:8px;">
+    <strong>Checked by:</strong> Project Manager<br>Date: _______________
+  </div>
+  <div style="flex:1; border-top:1px solid #333; padding-top:4px; font-size:8px;">
+    <strong>Approved by:</strong> Customer<br>Name: _______________ Date: _______________
+  </div>
+</div>
+
+<div class="footer">
+  <span>Flowtech Measuring Instruments Pvt. Ltd. — ISO 9001:2015 Certified</span>
+  <span>Page 1 — CONFIDENTIAL</span>
+</div>
+</body>
+</html>
